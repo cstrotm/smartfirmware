@@ -1,7 +1,0 @@
-#include cpp05.h
-
- f '(' ')'
- '{'
- int bar ';'
- '-' '-' bar ';'
- '}'
