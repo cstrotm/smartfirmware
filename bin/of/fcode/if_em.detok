@@ -1,0 +1,7 @@
+Welcome to SmartFirmware(tm) for CodeGenInc Unix version 1.00
+SmartFirmware(tm) Copyright 1996-2001 by CodeGen, Inc.
+All Rights Reserved.
+     0: start1
+     1: format = 0x8
+     2: checksum = 0x0
+     4: file-len=8, fcode-len=8
