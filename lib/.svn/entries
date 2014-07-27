@@ -1,0 +1,64 @@
+10
+
+dir
+1
+svn://openbios.org/smartfirmware/lib
+svn://openbios.org/smartfirmware
+
+
+
+2006-11-15T13:51:53.195260Z
+1
+stepan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104e7cd2-3922-0410-b381-896e7097c1b4
+
+cgt
+dir
+
+fmalloc
+dir
+
+integer
+dir
+
+aoa
+dir
+
+gcmalloc
+dir
+
+codegen
+dir
+
+wfmalloc
+dir
+
+edit
+dir
+
+wgmalloc
+dir
+
+floatc
+dir
+
+sym
+dir
+
+clib
+dir
+
