@@ -8,6 +8,8 @@ CMD="export"
 
 CGT=`pwd`
 export CGT
+export CFLAGS="-lstdc++"
+export PATH=$PATH:/cgt/bin
 
 PROC="`uname -p`"
 export PROC

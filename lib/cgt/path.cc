@@ -67,7 +67,7 @@ dir_name(const char *name)
 const char *
 base_name(const char *name)
 {
-    register char *ptr = strrchr(name, PATH_SEP);
+    register const char *ptr = strrchr(name, PATH_SEP);
 
     return (ptr == NULL) ? name : ptr + 1;
 }

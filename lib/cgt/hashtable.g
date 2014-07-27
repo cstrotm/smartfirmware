@@ -31,7 +31,7 @@ public:
 class ITER;
 
 class TABLE	// check comment striping
-{		// make sure "quotes" don't cause a problem \\ 
+{		// make sure "quotes" don't cause a problem 
     __elemtype(TABLE) **_chains;
     long _numchains;
     long _size;

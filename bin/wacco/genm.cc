@@ -1346,12 +1346,12 @@ GenModula3::gencode(const char *infile, const char *headername,
 	/* parse these out of the filenames */
 	tokenclass = strdup(headername);
 	parserclass = strdup(parsername);
-	s = strchr(tokenclass, '.');
+	// TODO	s = strchr(tokenclass, '.');
 
 	if (s)
 		*s = '\0';
 
-	s = strchr(parserclass, '.');
+	// TODO 	s = strchr(parserclass, '.');
 
 	if (s)
 		*s = '\0';

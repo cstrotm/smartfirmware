@@ -290,7 +290,8 @@ extern void gcdumpsnapstack(FILE *fp = stdout);
 
 // gcdebug.cc:
 extern void gcdebug(FILE *fp = stdout);
-extern void gcdump(FILE *fp = stdout);
+//extern void gcdump(FILE *fp = stdout);
+extern void gcdump(FILE *fp );
 
 // gcio.cc:
 boolean gcwrite(char const *filename = NULL);

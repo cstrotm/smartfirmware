@@ -1,3 +1,4 @@
+
 /*  Copyright (c) 1992-2005 CodeGen, Inc.  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
@@ -1209,12 +1210,12 @@ GenJava::genparser(const char * /*header*/)
 
 void
 GenJava::gencode(const char *infile, const char *headername,
-			const char *parsername, const char *scannername)
+		        const char *parsername, const char *scannername)
 {
 	char *s;
 
 	inputfile = infile;
-
+	
 	if (headername == NULL)
 		headername = "Wtoken.java";
 
@@ -1223,16 +1224,18 @@ GenJava::gencode(const char *infile, const char *headername,
 
 	if (parsername == NULL)
 		parsername = "Wparse.java";
-
+	
 	/* parse these out of the filenames */
 	tokenclass = strdup(headername);
 	parserclass = strdup(parsername);
-	s = strchr(tokenclass, '.');
+	// TODO
+	//	s = strchr(tokenclass, '.');
 
 	if (s)
 		*s = '\0';
 
-	s = strchr(parserclass, '.');
+	// TODO
+	//	s = strchr(parserclass, '.');
 
 	if (s)
 		*s = '\0';

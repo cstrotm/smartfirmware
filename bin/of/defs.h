@@ -946,7 +946,7 @@ extern Bool check_password(Environ *e);
 
 /* misc machine-dependent stuff */
 extern int machine_callback(Environ *e, Callback *func, Cell *array);
-extern void dprintf(const char *fmt, ...);	/* for debugging, if necessary */
+// extern void dprintf(const char *fmt, ...);	/* for debugging, if necessary */
 
 /* handy micro-second sleep routine for convenience of C drivers */
 extern void u_sleep(uInt ms);

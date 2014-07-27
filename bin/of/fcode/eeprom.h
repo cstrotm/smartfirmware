@@ -1,37 +1,64 @@
-/*  Copyright (c) 1992-2005 CodeGen, Inc.  All rights reserved.
- *
- *  Redistribution and use in source and binary forms, with or without
- *  modification, are permitted provided that the following conditions
- *  are met:
- *  1. Redistributions of source code must retain the above copyright
- *     notice, this list of conditions and the following disclaimer.
- *  2. Redistributions in binary form must reproduce the above copyright
- *     notice, this list of conditions and the following disclaimer in the
- *     documentation and/or other materials provided with the distribution.
- *  3. Redistributions in any form must be accompanied by information on
- *     how to obtain complete source code for the CodeGen software and any
- *     accompanying software that uses the CodeGen software.  The source code
- *     must either be included in the distribution or be available for no
- *     more than the cost of distribution plus a nominal fee, and must be
- *     freely redistributable under reasonable conditions.  For an
- *     executable file, complete source code means the source code for all
- *     modules it contains.  It does not include source code for modules or
- *     files that typically accompany the major components of the operating
- *     system on which the executable file runs.  It does not include
- *     source code generated as output by a CodeGen compiler.
- *
- *  THIS SOFTWARE IS PROVIDED BY CODEGEN AS IS AND ANY EXPRESS OR IMPLIED
- *  WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- *  OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- *  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- *  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- *  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- *  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- *  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- *  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- *  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- *
- *  (Commercial source/binary licensing and support is also available.
- *   Please contact CodeGen for details. http://www.codegen.com/)
- */
-
+	data[0x00] = 0x3000;
+	data[0x01] = 0x11F7;
+	data[0x02] = 0x3322;
+	data[0x03] = 0x0000;
+	data[0x04] = 0x0000;
+	data[0x05] = 0x0000;
+	data[0x06] = 0x0000;
+	data[0x07] = 0x0000;
+	data[0x08] = 0x0000;
+	data[0x09] = 0x0000;
+	data[0x0A] = 0x67AF;
+	data[0x0B] = 0x0670;
+	data[0x0C] = 0x140B;
+	data[0x0D] = 0x0000;
+	data[0x0E] = 0x0000;
+	data[0x0F] = 0x30F0;
+	data[0x10] = 0x0000;
+	data[0x11] = 0x0000;
+	data[0x12] = 0x0000;
+	data[0x13] = 0x0000;
+	data[0x14] = 0x0000;
+	data[0x15] = 0x0000;
+	data[0x16] = 0x0000;
+	data[0x17] = 0x0000;
+	data[0x18] = 0x0000;
+	data[0x19] = 0x0000;
+	data[0x1A] = 0x0000;
+	data[0x1B] = 0x0000;
+	data[0x1C] = 0x0000;
+	data[0x1D] = 0x0000;
+	data[0x1E] = 0x0000;
+	data[0x1F] = 0x0000;
+	data[0x20] = 0x0000;
+	data[0x21] = 0x0000;
+	data[0x22] = 0x0000;
+	data[0x23] = 0x0000;
+	data[0x24] = 0x0000;
+	data[0x25] = 0x0000;
+	data[0x26] = 0x0000;
+	data[0x27] = 0x0000;
+	data[0x28] = 0x0000;
+	data[0x29] = 0x0000;
+	data[0x2A] = 0x0000;
+	data[0x2B] = 0x0000;
+	data[0x2C] = 0x0000;
+	data[0x2D] = 0x0000;
+	data[0x2E] = 0x0000;
+	data[0x2F] = 0x0000;
+	data[0x30] = 0x0000;
+	data[0x31] = 0x0000;
+	data[0x32] = 0x0000;
+	data[0x33] = 0x0000;
+	data[0x34] = 0x0000;
+	data[0x35] = 0x0000;
+	data[0x36] = 0x0000;
+	data[0x37] = 0x0000;
+	data[0x38] = 0x0000;
+	data[0x39] = 0x0000;
+	data[0x3A] = 0x0000;
+	data[0x3B] = 0x0000;
+	data[0x3C] = 0x0000;
+	data[0x3D] = 0x0000;
+	data[0x3E] = 0x0000;
+	data[0x3F] = 0x9287;

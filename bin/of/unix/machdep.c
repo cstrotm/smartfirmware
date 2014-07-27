@@ -87,31 +87,31 @@ uInt g_machine_memory_offset = 0;
 /* debug printf using failsafe_write()
    - probably won't need to be modified much
  */
-void
-dprintf(const char *fmt, ...)
-{
-	va_list args;
-	static Byte buf[2048], buf2[2048];
-	Byte *s = buf;
-	Byte *s2 = buf2;
-	extern int vbprintf(char *, const char *, va_list);
+// void
+// dprintf(const char *fmt, ...)
+//{
+//	va_list args;
+//	static Byte buf[2048], buf2[2048];
+//	Byte *s = buf;
+//	Byte *s2 = buf2;
+//	extern int vbprintf(char *, const char *, va_list);
 
-	va_start(args, fmt);
-	vbprintf(buf, fmt, args);
-	va_end(args);
+//	va_start(args, fmt);
+//	vbprintf(buf, fmt, args);
+//	va_end(args);
 
 	/* convert all newlines to carriage-return-newline pairs */
-	while (*s)
-	{
-		if (*s == '\n')
-			*s2++ = '\r';
+//	while (*s)
+//	{
+//		if (*s == '\n')
+//			*s2++ = '\r';
 		
-		*s2++ = *s++;
-	}
+//		*s2++ = *s++;
+//	}
 
-	*s2 = '\0';
-	failsafe_write(buf2, s2 - buf2);
-}
+//	*s2 = '\0';
+//	failsafe_write(buf2, s2 - buf2);
+//}
 
 
 /* Initialize the memory pool needed for malloc, and any other hardware as

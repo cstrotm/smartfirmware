@@ -78,7 +78,7 @@ extern char const *base_name(char const *name);
 extern boolean filelength(const char *name, size_t *size);
 
 extern void set_debug_fp(FILE *fp);			/* use fp instead of stderr */
-extern void dprintf(const char *fmt, ...);	/* for debug output */
+// extern void dprintf(const char *fmt, ...);	/* for debug output */
 
 /* define DEBUG before including this header file to use this macro */
 #ifdef DEBUG

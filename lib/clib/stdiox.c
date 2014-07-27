@@ -305,6 +305,7 @@ set_debug_fp(FILE *fp)
 	debugfp = fp;
 }
 
+/*
 void
 dprintf(const char *fmt, ...)
 {
@@ -317,3 +318,4 @@ dprintf(const char *fmt, ...)
 	vfprintf(debugfp, fmt, args);
 	va_end(args);
 }
+*/

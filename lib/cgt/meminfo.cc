@@ -44,6 +44,8 @@
 #	include <mach-o/getsect.h>
 #elif defined(__FreeBSD__)
     extern int end;
+#elif defined(__linux__)
+    extern int end;
 #else
     extern int end;
     extern "C" { void *sbrk(size_t); }

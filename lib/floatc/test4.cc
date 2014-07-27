@@ -121,7 +121,7 @@ mkdp(uLong ah, uLong al)
     return Float(fcdouble, vec);
 }
 
-main(/*int argc, char **argv*/)
+int main(/*int argc, char **argv*/)
 {
     printf("_FLOAT_MINLONGS = %d\n", _FLOAT_MINLONGS);
     printf("BITSPERLONG = %d\n", BITSPERLONG);

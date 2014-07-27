@@ -13,7 +13,7 @@ CC = gcc
 # -DFREE_TAKES_CHAR	if you have a free(char*) instead of free(void*) (Sun)
 # -DNEED_MALLOC_H	if you have a <malloc.h> header file
 COMPFLAGS = -O -g -pipe -Wall
-CFLAGS = $(COMPFLAGS) -Icgt
+CFLAGS += $(COMPFLAGS)  -Icgt
 LIBS = cgt/libcgt.a
 
 SRCS =	README Makefile Makefile.be wacco.1 wacco.doc wacco.w \

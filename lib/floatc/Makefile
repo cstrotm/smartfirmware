@@ -4,7 +4,7 @@ CC = gcc
 #LITTLE_ENDIAN is already defined in FreeBSD
 COMPFLAGS = -O -g -Wall -DBYTE_ORDER_LITTLE_ENDIAN
 INCLUDES = -I. -I../integer -I../cgt
-CFLAGS = $(COMPFLAGS) $(INCLUDES)
+CFLAGS += $(COMPFLAGS) $(INCLUDES)
 LIBS = ../cgt/libcgt.a -lm -lc
 
 OBJS =	float.o fltutil.o fltmisc.o fltmath.o fltconst.o fltlog.o \

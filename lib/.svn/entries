@@ -26,21 +26,6 @@ stepan
 
 104e7cd2-3922-0410-b381-896e7097c1b4
 
-cgt
-dir
-
-fmalloc
-dir
-
-integer
-dir
-
-aoa
-dir
-
-gcmalloc
-dir
-
 codegen
 dir
 
@@ -60,5 +45,20 @@ sym
 dir
 
 clib
+dir
+
+cgt
+dir
+
+fmalloc
+dir
+
+integer
+dir
+
+aoa
+dir
+
+gcmalloc
 dir
 

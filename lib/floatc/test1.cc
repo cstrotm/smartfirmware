@@ -1230,7 +1230,7 @@ floattrigtest()
     atanh(f20);
 }
 
-main(/*int argc, char **argv*/)
+int main(/*int argc, char **argv*/)
 {
 //    errorinfo(argv[0], NULL, 0, &v, &m);
     printf("_FLOAT_MINLONGS = %d\n", _FLOAT_MINLONGS);

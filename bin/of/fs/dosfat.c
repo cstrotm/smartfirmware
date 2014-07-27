@@ -119,7 +119,7 @@ static Int fat_bits;				/* the FAT encoding scheme */
 
 static Int disk_size;
 static uChar *disk_buf;
-extern struct device devices[];
+// extern struct device devices[];
 
 
 /* for disk_read below */

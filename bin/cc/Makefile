@@ -3,7 +3,7 @@
 
 CC = gcc
 YACC = yacc
-CFLAGS = -O -g -pipe -Wall -I/cgt/include
+CFLAGS += -O -g -pipe -Wall -I/cgt/include -I../../lib/floatc
 yFLAGS = -dv
 
 FILES = Makefile Makefile.be CCtst.make FEATURES \

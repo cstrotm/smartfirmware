@@ -54,7 +54,7 @@
 #undef cfree
 #endif
 
-extern "C" { void *sbrk(size_t len); }
+// extern "C" { void *sbrk(size_t len); }
 
 struct Freeblock
 {

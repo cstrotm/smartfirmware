@@ -3,7 +3,7 @@
 #
 
 world:
-	makeworld.sh
+	./makeworld.sh
 
 clean:
-	makeworld.sh clean
+	./makeworld.sh clean

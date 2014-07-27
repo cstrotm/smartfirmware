@@ -1124,7 +1124,7 @@ free(void *ptr)
 }
 
 void *
-realloc(void *p, size_t nsz)
+realloc(void *p, size_t nsz) throw ()
 {
     if (p == NULL)
 	return malloc(nsz);

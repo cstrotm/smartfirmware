@@ -242,7 +242,7 @@ point_to(Storage_thing *point, Storage_thing *to)
 
 #line 210 "parser.cc"
 
-extern YYTEXT_DECL;
+//extern YYTEXT_DECL;
 int w_numerrors = 0;
 int w_currtoken = -1;
 
